@@ -13,8 +13,8 @@ This mod shares *health loss* between players (not damage).
 
 Consider there are 2 players on a server, Player A and Player B.
 
-    * Player A that is not wearing any armor, takes a large fall and loses 3 hearts.
-    * Player B that is 5000 blocks away and wearing diamond boots with feather falling IV takes damage and *also* loses 3 hearts
+* Player A that is not wearing any armor, takes a large fall and loses 3 hearts.
+* Player B that is 5000 blocks away and wearing diamond boots with feather falling IV takes damage and *also* loses 3 hearts
 
 ## Installation
 ### Client
