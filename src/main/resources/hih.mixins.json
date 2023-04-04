@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "grojdg.hih.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [],
+	"server": [
+		"DamageMixin",
+		"HealthMixin",
+		"PlayerConnectMixin",
+		"DeathMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

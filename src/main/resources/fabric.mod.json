@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hih",
+	"version": "${version}",
+	"name": "HeartInHearts",
+	"description": "Mod for hardercore 2023",
+	"authors": [
+		"grojdg"
+	],
+	"contact": {
+		"homepage": "https://xxk-i.github.io/",
+		"sources": "https://github.com/xxk-i/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hih/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"grojdg.hih.HeartInHeartsMod"
+		],
+		"client": [
+			"grojdg.hih.HeartInHeartsClient"
+		]
+	},
+	"mixins": [
+		"hih.mixins.json",
+		{
+			"config": "hih.client.mixins.json",
+			"environment": "server"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
