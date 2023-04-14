@@ -26,7 +26,7 @@
 		"hih.mixins.json",
 		{
 			"config": "hih.client.mixins.json",
-			"environment": "server"
+			"environment": "client"
 		}
 	],
 	"depends": {
@@ -34,8 +34,5 @@
 		"minecraft": "~1.19.4",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
