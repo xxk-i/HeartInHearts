@@ -1,6 +1,6 @@
 # @a(ll)
 # clear subtitle text
-title @a subtitle {"text":""}
+title @a title {"text":""}
 
 # quick fadein, stay for 5 seconds, single second fade out
 title @a times 1 100 20

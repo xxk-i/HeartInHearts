@@ -19,7 +19,7 @@ public class DeathEvent {
 
             try {
                 commandDispatcher.execute("function hih:death/starttimer", commandSource);
-                commandDispatcher.execute("title @a title {\"text\": \"" + player.getGameProfile().getName() + " has sealed your fate...\", \"color\":\"red\"}", commandSource);
+                commandDispatcher.execute("title @a subtitle {\"text\": \"" + player.getGameProfile().getName() + " has sealed your fate...\", \"color\":\"red\"}", commandSource);
             }
 
             catch (CommandSyntaxException e) {

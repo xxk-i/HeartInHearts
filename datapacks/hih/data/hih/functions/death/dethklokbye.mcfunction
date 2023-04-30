@@ -1,1 +1,1 @@
-title @a subtitle {"text": "Goodbye", "color": "red"}
+title @a title {"text": "Goodbye", "color": "red"}
