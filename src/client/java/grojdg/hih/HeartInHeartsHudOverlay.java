@@ -153,7 +153,7 @@ public class HeartInHeartsHudOverlay implements HudRenderCallback {
         //
         // i tried to make my own textRenderer from FontManager but it was not obvious
         // how to load a font idk
-        client.textRenderer.draw(matrixStack, playerListEntry.getProfile().getName(),  anchorX + 1 + 16, anchorY - 1 + vOffset, nameColor);
+        client.textRenderer.drawWithShadow(matrixStack, playerListEntry.getProfile().getName(), anchorX + 1 + 16, anchorY - 1 + vOffset, nameColor);
 
         // hearts are drawn 15 over because they look better if 1 unit to the left of the name
         RenderSystem.setShaderTexture(0, DrawableHelper.GUI_ICONS_TEXTURE); // this bitch got allat so we gotta cut it up
