@@ -1,9 +1,9 @@
 # @a(ll)
-# clear subtitle text
-title @a title {"text":""}
-
 # quick fadein, stay for 5 seconds, single second fade out
 title @a times 1 100 20
+
+# clear subtitle text
+title @a title {"text":""}
 
 # actual title is set by our DeathEvent.java so we can easily include death name
 # so we just schedule the rest
